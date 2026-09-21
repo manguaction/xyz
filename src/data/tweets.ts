@@ -15,8 +15,8 @@ export const tweets: Tweet[] = [
         authorHandle: '@adalovelace',
         content: 'Coucou les copains comment allez vous ce matin, je suis actuellement au portugal et il fait tres chaud jadore les ananas et les meringues meme si ca nest pas dici mais jadore ca alors je voulais vous le souligner souligne souligne bisous',
         image: {
-            url: ' https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/500px-Ada_Lovelace_portrait.jpg',
-            alt: 'Portrait of Ada Lovelace',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/500px-Ada_Lovelace_portrait.jpg',
+            alt: 'Portrait de Ada Lovelace',
         },
         createdAt: '2023-01-02T15:30:00Z',
     },
@@ -26,8 +26,8 @@ export const tweets: Tweet[] = [
         authorHandle: '@ggrrrrjaimelebeurre',
         content: 'Coucou angele, ce matin en cours tu mas evite et rejete je napprecie pas ce comprotement notamment quand en cours tu demandes cest quoi le nom de famille de sacha du bourg palette et je te repond Ketchum ! et tu oses ne pas mentendre plus chercher sur intrnet pour avoir la reponse en mevitant comme pas possible je trouvez ca honteux merci de ne plus jamais madresser la parole.',
         image: {
-            url: ' https://upload.wikimedia.org/wikipedia/commons/5/55/Grace_Hopper.jpg',
-            alt: 'Portrait of Grace Hopper',
+            url: 'https://upload.wikimedia.org/wikipedia/commons/5/55/Grace_Hopper.jpg',
+            alt: 'Portrait de Grace Hopper',
         },
         createdAt: '2023-01-03T09:45:00Z',
     },
