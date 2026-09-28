@@ -15,7 +15,7 @@ export const tweets: Tweet[] = [
         authorHandle: '@adalovelace',
         content: 'Coucou les copains comment allez vous ce matin, je suis actuellement au portugal et il fait tres chaud jadore les ananas et les meringues meme si ca nest pas dici mais jadore ca alors je voulais vous le souligner souligne souligne bisous',
         image: {
-            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/500px-Ada_Lovelace_portrait.jpg',
+            url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/500px-Ada_Lovelace_portrait.jpg",
             alt: 'Portrait de Ada Lovelace',
         },
         createdAt: '2023-01-02T15:30:00Z',
@@ -42,7 +42,7 @@ export const tweets: Tweet[] = [
         id: '5',
         authorName: 'Mae Jemison',
         authorHandle: '@maejemison',
-        content: 'BOnjour les amis, aujourdhui je jouais a league of legend en tant que mid avec fizz et je faisais une game denfer jetais en 3/0/5 je me suis dit celle la elle est win c pas possible autrement.. malheuresement jai decouvert laffreuse verite qaund jai appuye sur la touche tab de mon pave numerique il etait ecrit que le top en face etait en 18/0/0 mon top etait en 0/18/0 la game cest plie en 13min avec -35 lp poour moi',
+        content: 'Bonjour les amis, aujourdhui je jouais a league of legend en tant que mid avec fizz et je faisais une game denfer jetais en 3/0/5 je me suis dit celle la elle est win c pas possible autrement.. malheuresement jai decouvert laffreuse verite qaund jai appuye sur la touche tab de mon pave numerique il etait ecrit que le top en face etait en 18/0/0 mon top etait en 0/18/0 la game cest plie en 13min avec -35 lp poour moi',
         createdAt: '2023-01-05T11:15:00Z',
     },
     {
@@ -58,6 +58,7 @@ export const tweets: Tweet[] = [
         authorHandle: '@katerineleplusbodu77',
         content: 'Bonjour ce matin jai vu quon mavait @ sur un post, je suis donc allé dessus et ne fut pas ma surprise quand jai vue que ce monsieur voulais quon se rencontre car nous avions le meme nom... je suis tres emu de la proposition ca te dirait vendredi apres midi au leclerc de Joeuf ps : tu es mignon sur ta pp',
         createdAt: '2023-01-04T14:20:00Z',
+        parentId:'4'
     },
     {
         id: '8',
@@ -70,8 +71,9 @@ export const tweets: Tweet[] = [
         id: '9',
         authorName: 'ANGELEDU93',
         authorHandle: '@angeletouttestdevenuflou',
-        content: 'Bonjour mangue... aujourdui tu signes entre nous une guerrr. Malheuresment pour moi mon ouie diminue de jour en jour et comme tu fais la sourde oreille laisse moi te dire que moi aussi je nai plus aucune envie de discuter avec toi, la prochaine fois tu diras KETCHUM plus fort et peut etre je tendendrais mais desormais tes propos ne minteresse plus de toute facon',
+        content: 'pa lu + ratio',
         createdAt: '2023-01-08T12:00:00Z',
+        parentId:'3',
     },
     {
         id: '10',
