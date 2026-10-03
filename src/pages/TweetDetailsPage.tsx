@@ -1,9 +1,11 @@
 import { TweetList } from "../components/TweetsList";
 import { TweetPreview } from "../components/TweetPreview";
-import { tweets } from "../data/tweets";
 import { Link, useParams } from "react-router-dom";
+import { useContext } from "react";
+import { TweetsContext } from "../contexts/TweetsContext";
 
 function TweetDetailsPage() {
+    const { tweets } = useContext(TweetsContext)!;
     const { id } = useParams<{ id: string }>();
 
     const tweet = tweets.find((tweet) => tweet.id === id);

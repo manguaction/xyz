@@ -8,6 +8,8 @@ export const tweets: Tweet[] = [
         authorHandle: '@johndoe',
         content: 'Bonjour, Bonjour la communauté ici JOHHHHHHHHHHHHHHHN, si je vous ecrit aujourdhui cest pour vous dire que jadore vraiment la communaute quon cest construite recemment, je voulais remercier mes 3 followers: alban, john(moi meme) et clara(ma soeur) merci je vous aime',
         createdAt: '2023-01-01T12:00:00Z',
+        likes:12,
+        likedByMe:false
     },
     {
         id: '2',
@@ -19,6 +21,8 @@ export const tweets: Tweet[] = [
             alt: 'Portrait de Ada Lovelace',
         },
         createdAt: '2023-01-02T15:30:00Z',
+        likes: 563,
+        likedByMe:true,
     },
     {
         id: '3',
@@ -30,6 +34,8 @@ export const tweets: Tweet[] = [
             alt: 'Portrait de Grace Hopper',
         },
         createdAt: '2023-01-03T09:45:00Z',
+        likes:1,
+        likedByMe:true,
     },
     {
         id: '4',
@@ -37,6 +43,8 @@ export const tweets: Tweet[] = [
         authorHandle: '@katherinejohnson',
         content: 'Quand je me suis levee aujourdhui jai appris quil existait un homme qui sappelait katerine COMME MOI !!!! et je suis desormais fan de lui.. ca te dirait quon se rencontre @katerineleplusbodu77 ',
         createdAt: '2023-01-04T14:20:00Z',
+        likes:24,
+        likedByMe:false,
     },
     {
         id: '5',
@@ -44,6 +52,8 @@ export const tweets: Tweet[] = [
         authorHandle: '@maejemison',
         content: 'Bonjour les amis, aujourdhui je jouais a league of legend en tant que mid avec fizz et je faisais une game denfer jetais en 3/0/5 je me suis dit celle la elle est win c pas possible autrement.. malheuresement jai decouvert laffreuse verite qaund jai appuye sur la touche tab de mon pave numerique il etait ecrit que le top en face etait en 18/0/0 mon top etait en 0/18/0 la game cest plie en 13min avec -35 lp poour moi',
         createdAt: '2023-01-05T11:15:00Z',
+        likes:9,
+        likedByMe:true,
     },
     {
         id: '6',
@@ -51,6 +61,8 @@ export const tweets: Tweet[] = [
         authorHandle: '@maryjackson',
         content: 'Les gars aujourdhui jai fais une game de sett top jetais en 18/0/0 jetais trop chaud jai roule sur la game mes allies etait trop heureux grace a ca je suis passe diamnt 1, plus que qq step avant de devenir master jai hate. SI riot veut bien menvoyer le skin spirit blossom de sett gratos ca me ferait plaisir merci davance',
         createdAt: '2023-01-06T10:30:00Z',
+        likes:7362,
+        likedByMe:false,
     },
     {
         id: '7',
@@ -58,7 +70,9 @@ export const tweets: Tweet[] = [
         authorHandle: '@katerineleplusbodu77',
         content: 'Bonjour ce matin jai vu quon mavait @ sur un post, je suis donc allé dessus et ne fut pas ma surprise quand jai vue que ce monsieur voulais quon se rencontre car nous avions le meme nom... je suis tres emu de la proposition ca te dirait vendredi apres midi au leclerc de Joeuf ps : tu es mignon sur ta pp',
         createdAt: '2023-01-04T14:20:00Z',
-        parentId:'4'
+        parentId:'4',
+        likes:214,
+        likedByMe:false,
     },
     {
         id: '8',
@@ -66,6 +80,8 @@ export const tweets: Tweet[] = [
         authorHandle: '@johnCENAcatchjadorelecatchcatchcatch',
         content: 'DAMMMMMMMMMMMn la team CENA, comment vous portez vous les gars ? Moi ca va super jespere que vous etes chaud car aujourdhui je sors une nouvelle con=llection de boisson energisante que jai appelle la CENA ENERGY DRINK elle est a base de caoutchou de pneu et de brocoli du maroc. Jespere que vous allez en masse, la bouteille est a 78euros les 25 cl ',
         createdAt: '2023-01-07T08:15:00Z',
+        likes:14525855,
+        likedByMe:true,
     },
     {
         id: '9',
@@ -74,6 +90,8 @@ export const tweets: Tweet[] = [
         content: 'pa lu + ratio',
         createdAt: '2023-01-08T12:00:00Z',
         parentId:'3',
+        likes:6666,
+        likedByMe:false,
     },
     {
         id: '10',
@@ -81,5 +99,7 @@ export const tweets: Tweet[] = [
         authorHandle: '@bobmonstreetcompanie',
         content: 'GRAOUUUUUUUUUUU salut les monstres vous etes chaud pour faire un max de cri ce soir? ?? ? ?  Pour rappel ce soir soiree cri en folie ou on essai de battre le record du plus gros cri jamais entendu. EN invite spécial : SULLY sera a lhonneur jespere que vous serez apprecie ',
         createdAt: '2023-01-09T14:30:00Z',
+        likes:985,
+        likedByMe:true,
     }
 ]
