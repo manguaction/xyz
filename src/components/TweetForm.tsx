@@ -1,4 +1,5 @@
-import { useState, SubmitEvent, ChangeEvent } from "react";
+import { useState } from "react";
+import type { SubmitEvent, ChangeEvent } from "react";
 
 const CONTENT_MAX_LENGTH = 280;
 

@@ -3,13 +3,14 @@ import { TweetPreview } from "./TweetPreview";
 
 export type TweetListProps = {
   tweets: Array<Tweet>;
+  onToggleLike : (id:string) =>void;
 };
 
-export const TweetList = ({ tweets }: TweetListProps): React.JSX.Element => {
+export const TweetList = ({ tweets, onToggleLike }: TweetListProps): React.JSX.Element => {
   return (
     <div>
       {tweets.map((tweet) => (
-        <TweetPreview key={tweet.id} tweet={tweet} />
+        <TweetPreview key={tweet.id} tweet={tweet} onToggleLike={onToggleLike} />
       ))}
     </div>
   );
